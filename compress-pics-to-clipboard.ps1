@@ -1,4 +1,6 @@
-﻿#Make a staging folder in temp folder and make sure it's empty
+﻿#original written by @kenemar 8/5/22
+
+#Make a staging folder in temp folder and make sure it's empty
 New-Item -Path $env:temp\compressed-pics-staging -ItemType Directory -Force | Out-Null
 Remove-Item $env:temp\compressed-pics-staging\*
 
